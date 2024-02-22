@@ -1,0 +1,540 @@
+:root {
+  --very-small-text-size: 14px;
+  --small-text-size: 18px;
+  --pre-medium-text-size: 20px;
+  --medium-text-size: 24px;
+  --pre-big-text-size: 36px;
+  --big-text-size: 48px;
+  --pre-very-big-text-size: 64px;
+  --very-big-text-size: 72px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.very-small-text {
+  font-size: var(--very-small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.small-text {
+  font-size: var(--small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pre-medium-text {
+  font-size: var(--pre-medium-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.medium-text {
+  font-size: var(--medium-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main-f1 {
+  font-size: var(--very-big-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  line-height: normal;
+}
+
+.main-f2 {
+  font-size: var(--small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  line-height: 30px;
+}
+
+.main-steep-cards-text {
+  font-size: var(--small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.enter-profile-f2 {
+  font-size: var(--small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+}
+
+.enter-profile-f3 {
+  font-size: var(--small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.45;
+}
+
+.update-alert-f1 {
+  font-size: var(--pre-medium-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: white;
+  text-align: center;
+  padding-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+.update-alert-f2 {
+  font-size: var(--small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: white;
+  text-align: center;
+}
+
+.paragraph-text {
+  font-size: var(--big-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.servers-f1 {
+  font-size: var(--pre-very-big-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+
+.servers-f2 {
+  font-size: var(--medium-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.6;
+  text-align: left;
+}
+
+.servers-f3 {
+  font-size: var(--small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  text-align: left;
+}
+
+.servers-online-text {
+  font-size: var(--pre-big-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: #333333;
+  opacity: 0.6;
+}
+
+.team-about-text {
+  font-size: var(--medium-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.team-f1 {
+  font-size: var(--pre-very-big-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  text-align: right;
+  position: relative;
+  left: 14%;
+}
+
+.team-f2 {
+  font-size: var(--medium-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  position: relative;
+  left: 14%;
+}
+
+.footer-f1 {
+  font-size: var(--small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.footer-f2 {
+  font-size: var(--very-small-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.is-without-left-right-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.is-with-top-margin {
+  padding-top: 7vh;
+}
+
+.project-grid {
+  display: grid;
+  grid-gap: 7vh;
+}
+
+.advantages {
+  background-color: white;
+  color: black;
+}
+
+.advantages-black {
+  background-color: black;
+  color: #FF961C;
+}
+
+.advantages-container {
+  margin-left: 20%;
+}
+
+.advantages-box {
+  padding: 2%;
+  transition: transform, box-shadow 0.2s, 0.2s ease-in-out;
+}
+.advantages-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.35);
+}
+
+.advantages-box-black {
+  padding: 2%;
+  transition: transform, background-color 0.2s, 0.2s ease-in-out;
+}
+.advantages-box-black:hover {
+  transform: scale(1.05);
+  background: #171717;
+}
+
+.advantages-card-img {
+  fill: #5B5B5B;
+}
+
+.advantages-card-img-black {
+  fill: var(--gradient, linear-gradient(to right, #FF961C, #EB5757));
+}
+
+.main {
+  color: black;
+  height: 900px;
+  background: url("src/assets/mainBackgroundLight.png") no-repeat center fixed;
+}
+
+.main-dark {
+  color: white;
+  height: 900px;
+  background: url("src/assets/mainBackgroundDark.png") no-repeat center fixed;
+}
+
+.main-grid {
+  display: grid;
+  grid-gap: 5vh;
+}
+
+.main-container {
+  padding-left: 5%;
+}
+
+.section-grid {
+  display: grid;
+  grid-gap: 12vh;
+}
+
+.change-theme-button {
+  fill: black;
+  transition: fill 0.2s ease-in-out;
+}
+.change-theme-button:hover {
+  fill: #FF961C;
+}
+
+.update-alert {
+  width: 263px;
+  height: 100px;
+  background: var(--gradient, linear-gradient(to right, #FF961C, #EB5757));
+  position: fixed;
+  z-index: 1;
+}
+
+.enter-profile {
+  position: relative;
+  left: 3%;
+}
+
+.is-steeps {
+  position: relative;
+  left: 1%;
+}
+
+.steep-card {
+  width: 100%;
+  height: 100%;
+  background-color: #828282;
+}
+.steep-card:hover {
+  background-image: var(--gradient, linear-gradient(to right, #FF961C, #EB5757));
+}
+.steep-card::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.enter-profile-button {
+  height: 192px;
+  width: 192px;
+  transition: transform 0.3s ease-in-out;
+}
+.enter-profile-button:hover {
+  transform: scale(1.1);
+}
+
+.main-enter-circle-first {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.main-enter-circle-first:hover {
+  opacity: 0.8;
+}
+
+.main-enter-circle-second {
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
+.main-enter-circle-second:hover {
+  opacity: 0.8;
+}
+
+.main-enter-circle-third {
+  opacity: 0.4;
+  transition: opacity 1s ease-in-out;
+}
+.main-enter-circle-third:hover {
+  opacity: 0.6;
+}
+
+.servers {
+  color: black;
+  background: white;
+}
+
+.servers-black {
+  color: white;
+  background: black;
+}
+
+.server-card {
+  height: 310px;
+  width: 100%;
+  background: url("src/assets/serverBg.png") no-repeat;
+  background-size: cover;
+}
+
+.server-card-black {
+  height: 310px;
+  width: 100%;
+  background: url("src/assets/serverBgBlack.png") no-repeat;
+  background-size: cover;
+}
+
+.is-server-data {
+  height: 100%;
+}
+
+.diagram {
+  height: 165px;
+  width: 100%;
+  background: url("src/assets/diagram.svg") no-repeat center;
+  background-size: contain;
+  font-size: var(--pre-big-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  line-height: 165px;
+}
+
+.diagramFull {
+  height: 165px;
+  width: 100%;
+  background: url("src/assets/diagramFull.svg") no-repeat center;
+  background-size: contain;
+  font-size: var(--pre-big-text-size);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  line-height: 165px;
+}
+
+.team {
+  color: black;
+  position: relative;
+}
+
+.team-black {
+  color: white;
+  position: relative;
+}
+
+.team-personage-background {
+  height: 755px;
+  width: 1208px;
+  position: absolute;
+  left: -13%;
+  top: 13%;
+  z-index: 0;
+}
+
+.team-teammate {
+  height: 572px;
+  width: 100%;
+  background: url("src/assets/teammate.svg") no-repeat center;
+}
+
+.team-arrow {
+  transition: fill, transform 0.4s ease-in-out;
+  z-index: 1;
+}
+.team-arrow:hover {
+  fill: orange;
+  transform: scale(1.13);
+}
+
+.footer {
+  background: white;
+  height: 135px;
+  width: 100%;
+  padding: 0;
+}
+
+.footer.black {
+  color: white;
+  background: black;
+}
+
+.footer-data {
+  height: 100%;
+  width: 100%;
+}
+
+.orange {
+  color: #FF961C;
+}
+
+.footer-is-left {
+  position: relative;
+  left: -3%;
+}
+
+@media (max-width: 1210px) {
+  .main {
+    height: 900px;
+    background: white center;
+  }
+  .update-alert {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  .section-grid {
+    display: grid;
+    grid-gap: 7vh;
+  }
+  .team-f1 {
+    font-size: var(--pre-very-big-text-size);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    text-align: right;
+    position: relative;
+    background: white;
+    top: 30%;
+    left: -0.1%;
+  }
+  .team-f2 {
+    font-size: var(--medium-text-size);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    position: relative;
+    background: white;
+    top: 30%;
+    left: -0.1%;
+  }
+  .footer-is-left {
+    position: unset;
+  }
+}
+@media (max-width: 900px) {
+  :root {
+    --very-small-text-size: 12px;
+    --small-text-size: 16px;
+    --pre-medium-text-size: 28px;
+    --medium-text-size: 21px;
+    --very-big-text-size: 55px;
+    --pre-big-text-size: 30px;
+    --big-text-size: 42px;
+    --pre-very-big-text-size: 48px;
+  }
+}
+@media (max-width: 600px) {
+  :root {
+    --very-small-text-size: 11px;
+    --small-text-size: 15px;
+    --pre-medium-text-size: 16px;
+    --medium-text-size: 18px;
+    --very-big-text-size: 46px;
+    --pre-big-text-size: 24px;
+    --big-text-size: 34px;
+    --pre-very-big-text-size: 42px;
+  }
+}
+@media (max-width: 770px) {
+  .enter-profile {
+    position: unset;
+  }
+  .is-steeps {
+    position: unset;
+  }
+  .advantages-grid {
+    display: grid;
+    grid-gap: 3vh;
+  }
+  .is-centered-on-phone {
+    justify-content: center;
+  }
+  .footer-logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

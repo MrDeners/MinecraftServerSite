@@ -323,7 +323,7 @@ $gray: #828282;
 
 .footer {
   background: white;
-  height: 135px;
+  height: 90%;
   width: 100%;
   padding: 0;
 }
@@ -345,18 +345,17 @@ $gray: #828282;
 @media (max-width: 1630px) {
   .steep-card {
     width: 100%;
-    height: 132px;
     background-color: $gray;
 
     &:hover {
       background-image: $orange-gradient;
     }
 
-    //&::before {
-    //  content: "";
-    //  display: block;
-    //  padding-top: 100%;
-    //}
+    &::before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
   }
 }
 

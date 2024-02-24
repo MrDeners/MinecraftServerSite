@@ -36,4 +36,11 @@ function Save(key, value) {
     localStorage.setItem(key, value);
 }
 
+//SteepCards Sizes ===================================================================================================
 
+let steepCardsWidth = parseInt(document.getElementsByClassName("steep-card")[0].style.width);
+let steepCards = document.getElementsByClassName("steep-card");
+for (let i = 0; i < steepCards.length; i++) {
+    steepCards[i].style.height = steepCardsWidth + "px";
+    console.log(steepCardsWidth);
+}

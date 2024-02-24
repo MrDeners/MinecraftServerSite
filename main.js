@@ -14,6 +14,15 @@ else if(darkMode === false) {
 
 
 
+
+
+
+
+
+
+
+
+
 function changeTheme() {
     if (localStorage.getItem("theme") === false || localStorage.getItem("theme") === true)
         darkMode = localStorage.getItem("theme") === "true";

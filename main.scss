@@ -67,18 +67,6 @@ $gray: #828282;
   opacity: 0.45;
 }
 
-.update-alert-f1 {
-  @include text(var(--pre-medium-text-size), 500, white);
-  text-align: center;
-  padding-top: 1vh;
-  margin-bottom: 2vh;
-}
-
-.update-alert-f2 {
-  @include text(var(--small-text-size), 400, white);
-  text-align: center;
-}
-
 .paragraph-text {
   @include text(var(--big-text-size), 500);
   text-align: center;
@@ -195,8 +183,9 @@ $gray: #828282;
 
 .main {
   color: black;
-  height: 900px;
+  height: 100vh;
   background: url("src/assets/mainBackgroundLight.png") no-repeat center fixed;
+  background-size: contain;
 }
 
 .main-dark {
@@ -207,7 +196,7 @@ $gray: #828282;
 
 .main-grid {
   display: grid;
-  grid-gap: 5vh;
+  grid-gap: 0;
 }
 
 .main-container {
@@ -226,14 +215,6 @@ $gray: #828282;
   &:hover {
     fill: $orange
   }
-}
-
-.update-alert {
-  width: 263px;
-  height: 100px;
-  background: $orange-gradient;
-  position: fixed;
-  z-index: 1;
 }
 
 .enter-profile {
@@ -408,9 +389,27 @@ $gray: #828282;
   left: -3%
 }
 
+@media (max-width: 1630px) {
+  .steep-card {
+    width: 100%;
+    height: 132px;
+    background-color: $gray;
+
+    &:hover {
+      background-image: $orange-gradient;
+    }
+
+    //&::before {
+    //  content: "";
+    //  display: block;
+    //  padding-top: 100%;
+    //}
+  }
+}
+
 @media (max-width: 1210px) {
   .main {
-    height: 900px;
+    height: 100vh;
     background: white center;
   }
 

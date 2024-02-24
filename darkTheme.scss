@@ -1,0 +1,48 @@
+$orange-gradient: var(--gradient, linear-gradient(to right, #FF961C, #EB5757));
+$orange: #FF961C;
+$gray: #828282;
+
+.advantages {
+  background-color: black;
+  color: $orange;
+}
+
+.advantages-box {
+  transition: transform, background-color 0.2s, 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    background: #171717;
+  }
+}
+
+.advantages-card-img {
+  fill: $orange-gradient;
+}
+
+.main {
+  color: white;
+  background: url("src/assets/mainBackgroundDark.png") no-repeat center fixed;
+}
+
+.change-theme-button {
+  fill: white;
+}
+
+.servers {
+  color: white;
+  background: black;
+}
+
+.server-card {
+  background: url("src/assets/serverBgBlack.png") no-repeat;
+}
+
+.team {
+  color: white;
+}
+
+.footer {
+  color: white;
+  background: black;
+}

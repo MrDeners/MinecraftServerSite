@@ -41,17 +41,18 @@ body {
   color: white;
 }
 
-.team-f1 {
-  background-color: black;
-}
-
-.team-f2 {
-  background-color: black;
-}
-
 .footer {
   color: white;
   background: black;
+}
+
+@media (max-width: 1210px) {
+  .team-f1 {
+    background: black;
+  }
+  .team-f2 {
+    background: black;
+  }
 }
 
 /*# sourceMappingURL=darkTheme.css.map */

@@ -401,11 +401,6 @@
     height: 100vh;
     background: white center;
   }
-  .update-alert {
-    width: 0;
-    height: 0;
-    opacity: 0;
-  }
   .section-grid {
     display: grid;
     grid-gap: 7vh;

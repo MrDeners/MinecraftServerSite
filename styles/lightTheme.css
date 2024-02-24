@@ -17,7 +17,7 @@
 
 .main {
   color: black;
-  background: url("src/assets/mainBackgroundLight.png") no-repeat center fixed;
+  background: url("../src/assets/mainBackgroundLight.png") no-repeat center fixed;
 }
 
 .change-theme-button {
@@ -30,7 +30,7 @@
 }
 
 .server-card {
-  background: url("src/assets/serverBg.png") no-repeat;
+  background: url("../src/assets/serverBg.png") no-repeat;
 }
 
 .team {
@@ -38,7 +38,7 @@
 }
 
 .footer {
-  color: white;
+  color: black;
   background: white;
 }
 

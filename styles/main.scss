@@ -165,8 +165,8 @@ $gray: #828282;
 .main {
   color: black;
   height: 100vh;
-  background: url("src/assets/mainBackgroundLight.png") no-repeat center fixed;
-  background-size: contain;
+  background: url("../src/assets/mainBackgroundLight.png") no-repeat center fixed;
+  background-size: cover;
 }
 
 .main-grid {
@@ -263,7 +263,7 @@ $gray: #828282;
 .server-card {
   height: 310px;
   width: 100%;
-  background: url("src/assets/serverBg.png") no-repeat;
+  background: url("../src/assets/serverBg.png") no-repeat;
   background-size: cover;
 }
 
@@ -274,7 +274,7 @@ $gray: #828282;
 .diagram {
   height: 165px;
   width: 100%;
-  background: url("src/assets/diagram.svg") no-repeat center;
+  background: url("../src/assets/diagram.svg") no-repeat center;
   background-size: contain;
   @include text(var(--pre-big-text-size), 500);
   text-align: center;
@@ -284,7 +284,7 @@ $gray: #828282;
 .diagramFull {
   height: 165px;
   width: 100%;
-  background: url("src/assets/diagramFull.svg") no-repeat center;
+  background: url("../src/assets/diagramFull.svg") no-repeat center;
   background-size: contain;
   @include text(var(--pre-big-text-size), 500);
   text-align: center;
@@ -308,7 +308,7 @@ $gray: #828282;
 .team-teammate {
   height: 572px;
   width: 100%;
-  background: url("src/assets/teammate.svg") no-repeat center;
+  background: url("../src/assets/teammate.svg") no-repeat center;
 }
 
 .team-arrow {

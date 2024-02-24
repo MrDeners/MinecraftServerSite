@@ -4,8 +4,8 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css")
-        link(rel="stylesheet" href="main.css")
-        link#dart-theme-link(rel="stylesheet" href="darkTheme.css")
+        link(rel="stylesheet" href="styles/main.css")
+        link#theme-link(rel="stylesheet" href="styles/lightTheme.css")
         title Document
     body.white
         .project-grid
@@ -183,7 +183,7 @@ html(lang="ru")
                     section.servers
                         .section-grid
                             .paragraph-text Наши сервера
-                            .available-servers
+                            div
                                 .server-card
                                     .container
                                         //Why is-align-items-center isn't work?
@@ -226,7 +226,7 @@ html(lang="ru")
                                             .team-teammate.is-flex.is-flex-direction-column.is-justify-content-center
                                                 .team-f1 Аврора Леннис
                                                 .team-f2 Архитектор
-                                        .team-about-text Сообщение от работникапроекта. Желательно не менее 2-3 строк.
+                                        .team-about-text Сообщение от работника проекта. Желательно не менее 2-3 строк.
                                     .column.is-1.is-offset-3.is-flex.is-justify-content-center.is-align-items-center
                                         <svg class="team-arrow" width="104" height="104" viewBox="0 0 104 104" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_0_148)">

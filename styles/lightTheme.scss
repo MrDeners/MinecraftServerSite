@@ -2,6 +2,13 @@ $orange-gradient: var(--gradient, linear-gradient(to right, #FF961C, #EB5757));
 $orange: #FF961C;
 $gray: #828282;
 
+//$navbar-background-color: white;
+//
+//@import "bulma/sass/utilities/all";
+//@import "bulma/bulma";
+//@import "bulma/sass/components/navbar";
+
+
 .advantages {
   background-color: white;
   color: black;
@@ -22,7 +29,7 @@ $gray: #828282;
 
 .main {
   color: black;
-  background: url("src/assets/mainBackgroundLight.png") no-repeat center fixed;
+  background: url("../src/assets/mainBackgroundLight.png") no-repeat center fixed;
 }
 
 .change-theme-button {
@@ -35,7 +42,7 @@ $gray: #828282;
 }
 
 .server-card {
-  background: url("src/assets/serverBg.png") no-repeat;
+  background: url("../src/assets/serverBg.png") no-repeat;
 }
 
 .team {
@@ -43,6 +50,6 @@ $gray: #828282;
 }
 
 .footer {
-  color: white;
+  color: black;
   background: white;
 }

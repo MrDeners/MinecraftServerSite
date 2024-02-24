@@ -144,11 +144,6 @@ $gray: #828282;
   color: black;
 }
 
-.advantages-black {
-  background-color: black;
-  color: $orange;
-}
-
 .advantages-container {
   margin-left: 20%;
 }
@@ -163,22 +158,8 @@ $gray: #828282;
   }
 }
 
-.advantages-box-black {
-  padding: 2%;
-  transition: transform, background-color 0.2s, 0.2s ease-in-out;
-
-  &:hover {
-    transform: scale(1.05);
-    background: #171717;
-  }
-}
-
 .advantages-card-img {
   fill: #5B5B5B;
-}
-
-.advantages-card-img-black {
-  fill: $orange-gradient;
 }
 
 .main {
@@ -186,12 +167,6 @@ $gray: #828282;
   height: 100vh;
   background: url("src/assets/mainBackgroundLight.png") no-repeat center fixed;
   background-size: contain;
-}
-
-.main-dark {
-  color: white;
-  height: 900px;
-  background: url("src/assets/mainBackgroundDark.png") no-repeat center fixed;
 }
 
 .main-grid {
@@ -285,22 +260,10 @@ $gray: #828282;
   background: white;
 }
 
-.servers-black {
-  color: white;
-  background: black;
-}
-
 .server-card {
   height: 310px;
   width: 100%;
   background: url("src/assets/serverBg.png") no-repeat;
-  background-size: cover;
-}
-
-.server-card-black {
-  height: 310px;
-  width: 100%;
-  background: url("src/assets/serverBgBlack.png") no-repeat;
   background-size: cover;
 }
 
@@ -330,11 +293,6 @@ $gray: #828282;
 
 .team {
   color: black;
-  position: relative;
-}
-
-.team-black {
-  color: white;
   position: relative;
 }
 
@@ -368,11 +326,6 @@ $gray: #828282;
   height: 135px;
   width: 100%;
   padding: 0;
-}
-
-.footer.black {
-  color: white;
-  background: black;
 }
 
 .footer-data{
